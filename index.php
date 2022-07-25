@@ -2,7 +2,7 @@
 <html>
 
 <head>
-     <title>HTML Application</title>
+     <title>AJ Labs PHP Application</title>
 	 <link href="css/site.css" rel="stylesheet">
 </head>
 
@@ -46,9 +46,12 @@
                             <div class="step-icon">
                                 <img src="img/lightbulbWhite.svg">
                             </div>
-                            <div class="step-text">This website runs on Local <?php $ip = $_SERVER['SERVER_ADDR']; echo "IP: $ip", "<br>";?>
-
-</div>
+                            <div class="step-text">This website runs on Local IP:
+								<span class="dynamic"> <?php $ip = gethostbyname($hostname); echo "$ip"?> </span>
+								and Host Name:
+								<span class="dynamic"> <?php $hostname = exec("hostname");echo "$hostname"?> 
+								</span>
+							</div>
                         
 
 </div>
