@@ -76,6 +76,15 @@
             color: white;
 			text-decoration:underline;
         }
+		
+		.step-text2 {
+			color: red;
+		}
+		
+		span.dynamic{
+			color: #e4cd15;
+			font-size: 18px;
+		}
 
         .content {
             box-sizing: border-box;
