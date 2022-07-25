@@ -1,1 +1,1 @@
-# az-php-web-app
+# sample-static-php-web-app
