@@ -52,25 +52,25 @@
 								<span class="dynamic"> <?php $hostname = exec("hostname");echo "$hostname"?> 
 								</span>
 							</div>
-
+						</div>
+						
+						
 						<div class="step">
                             <div class="step-icon">
                                 <img src="img/lightbulbWhite.svg">
                             </div>
-                            <div class="step-text">Other AJ Labs Trainings</div>
-                        </div>
-
-                        <div class="step">
-                            <ul class="step-text">
-                                <li><a href="https://aj-labs.com/courses/advanced-genesys-cloud-contact-center/Advanced_Genesys_Cloud_Contact_Center_by_AJ_Labs_Syllabus.pdf" target="_blank" rel="noopener">Adv. Genesys Cloud CX</a></li>
-                                <li><a href="https://aj-labs.com/courses/advanced-microsoft-teams-copilot-graph-api/Advanced_Microsoft_Teams_SBCs_Copilot_Graph_API_by_AJ_Labs_Syllabus.pdf" target="_blank" rel="noopener">Adv. Microsoft Teams</a></li>
-                                <li><a href="https://www.udemy.com/course/microsoft-teams-direct-routing-with-all-sbcs-part-of-ms-721/?referralCode=43FA284904FB9F8FC80D" target="_blank" rel="noopener">Microsoft Teams Direct Routing Fast Track</a></li>
-                                <li><a href="https://aj-labs.com/courses/advanced-cisco-collaboration/Advanced%20Cisco%20Collaboration%20Syllabus.pdf" target="_blank" rel="noopener">Adv. Cisco Collaboration</a></li>
-                            </ul>
-                        </div>
-                        
-
-</div>
+                            <div class="step-text">Other AJ Labs Trainings
+								
+								<ul class="step-text">
+									<li><a href="https://aj-labs.com/courses/advanced-genesys-cloud-contact-center/Advanced_Genesys_Cloud_Contact_Center_by_AJ_Labs_Syllabus.pdf" target="_blank" rel="noopener">Adv. Genesys Cloud CX</a></li>
+									<li><a href="https://aj-labs.com/courses/advanced-microsoft-teams-copilot-graph-api/Advanced_Microsoft_Teams_SBCs_Copilot_Graph_API_by_AJ_Labs_Syllabus.pdf" target="_blank" rel="noopener">Adv. Microsoft Teams</a></li>
+									<li><a href="https://www.udemy.com/course/microsoft-teams-direct-routing-with-all-sbcs-part-of-ms-721/?referralCode=43FA284904FB9F8FC80D" target="_blank" rel="noopener">Microsoft Teams Direct Routing Fast Track</a></li>
+									<li><a href="https://aj-labs.com/courses/advanced-cisco-collaboration/Advanced%20Cisco%20Collaboration%20Syllabus.pdf" target="_blank" rel="noopener">Adv. Cisco Collaboration</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						
                     </div>
                 </div>
             </div>
